@@ -1201,17 +1201,17 @@ article {
   color: #fff;
 }
 
-.service-page .service-parts .block {
+.decision-page .decision-parts .block {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.service-page .service-parts .block i {
+.decision-page .decision-parts .block i {
   font-size: 35px;
   color: #02bdd5;
 }
 
-.service-page .service-parts .block p {
+.decision-page .decision-parts .block p {
   padding: 0 8px;
   font-size: 14px;
   color: #777;

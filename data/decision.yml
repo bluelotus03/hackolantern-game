@@ -2,7 +2,7 @@ enable  : true
 title   : WHAT WE LOVE TO DO
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci.
 image   : images/team.jpg
-serviceItem :
+decisionItem :
   - icon  : ion-ios-paper-outline
     title : BRANDING
     description: >
