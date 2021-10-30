@@ -664,7 +664,7 @@ figure figcaption p {
   transition: all linear .2s;
 }
 
-#blog-full-width {
+#outcome-full-width {
   padding: 40px 0 80px;
 }
 
@@ -672,36 +672,36 @@ article {
   padding: 30px 0;
 }
 
-.blog-content h2 {
+.outcome-content h2 {
   font-family: 'Roboto', sans-serif;
 }
 
-.blog-content h2 a {
+.outcome-content h2 a {
   color: #444;
   font-weight: 400;
   font-size: 30px;
 }
 
-.blog-content .blog-meta {
+.outcome-content .outcome-meta {
   color: #9a9a9a;
   font-weight: 300;
   margin-bottom: 25px;
 }
 
-.blog-content .blog-meta span:after {
+.outcome-content .outcome-meta span:after {
   content: '/';
   padding: 0 3px 0 6px;
 }
 
-.blog-content .blog-meta a {
+.outcome-content .outcome-meta a {
   color: #acacac;
 }
 
-.blog-content .blog-meta p {
+.outcome-content .outcome-meta p {
   margin-top: 20px;
 }
 
-.blog-content .btn-details {
+.outcome-content .btn-details {
   color: #02bdd5;
   padding: 0;
   background: #02bdd5;
@@ -713,7 +713,7 @@ article {
   box-shadow: 0px 0px 0px 1px #02bdd5;
 }
 
-.blog-post-image {
+.outcome-post-image {
   margin-top: 30px;
   margin-bottom: 20px;
 }

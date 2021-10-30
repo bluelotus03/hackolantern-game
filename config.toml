@@ -23,8 +23,8 @@ name    = "Gallery"
 url     = "gallery"
 weight  = 4
 [[menu.main]]
-name    = "Blog"
-url     = "blog"
+name    = "Outcome"
+url     = "outcome"
 weight  = 5
 [[menu.main]]
 name    = "Contact"
