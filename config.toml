@@ -78,7 +78,7 @@ content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>p
 btnText = "Contact with me"
 btnURL  = "/contact"
 
-# Portfolio Section On Homepage
+# Credits Section On Homepage
 [params.credits]
 enable  = true
 title   = "Latest Works"
