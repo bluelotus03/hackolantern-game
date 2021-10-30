@@ -13,7 +13,8 @@
   <link rel="icon" href="{{ `images/favicon.ico` | absURL }}">
 
   {{ "<!-- Twitter Bootstrs CSS -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | absURL }}">
+  <!-- <link rel="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | absURL }}"> -->
+  <link rel="stylesheet" href="{{ .Site.Params.plugins.bootstrap.css_url }}" integrity="{{ .Site.Params.plugins.bootstrap.css_int }}" crossorigin="anonymous">
   {{ "<!-- Ionicons Fonts Css -->" | safeHTML }}
   <link rel="stylesheet" href="{{ `plugins/ionicons/ionicons.min.css` | absURL }}">
   {{ "<!-- animate css -->" | safeHTML }}
