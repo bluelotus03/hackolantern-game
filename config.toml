@@ -15,7 +15,7 @@ name    = "About"
 url     = "about"
 weight  = 2
 [[menu.main]]
-name    = "Service"
+name    = "Decision"
 url     = "decision"
 weight  = 3
 [[menu.main]]

@@ -3,7 +3,7 @@
 {{ partial "page-title.html" . }}
 
 {{ if .Site.Data.decision.enable }}
-{{ "<!-- Service Section Start -->" | safeHTML }}
+{{ "<!-- Decision Section Start -->" | safeHTML }}
 <section id="decision-page" class="pages decision-page">
 	<div class="container">
 		<div class="row">
@@ -40,7 +40,7 @@
 		</div>
 	</div>
 </section>
-{{ "<!-- Service Section End -->" | safeHTML }}
+{{ "<!-- Decision Section End -->" | safeHTML }}
 {{ end }}
 
 {{ partial "clients.html" . }}
