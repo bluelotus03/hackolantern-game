@@ -916,12 +916,12 @@ article {
   left: 40%;
 }
 
-.portfolio-meta span {
+.credits-meta span {
   margin: 5px 10px;
   font-weight: 300;
 }
 
-.portfolio-meta span a {
+.credits-meta span a {
   color: #fff;
 }
 
@@ -982,7 +982,7 @@ article {
   border-radius: 0;
 }
 
-/* portfolio single */
+/* credits single */
 .work-single {
   padding: 100px 0 20px;
 }

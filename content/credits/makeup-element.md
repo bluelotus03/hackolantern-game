@@ -1,11 +1,11 @@
 ---
-title: "Caramel Bottle"
-type: portfolio
-date: 2018-07-12T16:59:54+06:00
+title: "Makeup Element"
+type: credits
+date: 2018-07-12T16:57:54+06:00
 description : "This is meta description"
-caption: Product Design
-image: images/portfolio/item-6.jpg
-category: ["product","mockup","design"]
+caption: Fashion Design
+image: images/credits/item-4.jpg
+category: ["fashion","package"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson
 submitDate: November 20, 2017

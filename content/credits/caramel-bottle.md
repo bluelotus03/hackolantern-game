@@ -1,11 +1,11 @@
 ---
-title: "Shopping Bag Concept"
-type: portfolio
-date: 2018-07-12T16:58:55+06:00
+title: "Caramel Bottle"
+type: credits
+date: 2018-07-12T16:59:54+06:00
 description : "This is meta description"
-caption: Conceptual Design
-image: images/portfolio/item-5.jpg
-category: ["bag","mockup"]
+caption: Product Design
+image: images/credits/item-6.jpg
+category: ["product","mockup","design"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson
 submitDate: November 20, 2017

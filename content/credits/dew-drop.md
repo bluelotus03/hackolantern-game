@@ -1,10 +1,10 @@
 ---
 title: "Dew Drop"
-type: portfolio
+type: credits
 date: 2018-07-12T16:53:54+06:00
 description : "This is meta description"
 caption: Redesigns UI Concept
-image: images/portfolio/item-1.jpg
+image: images/credits/item-1.jpg
 category: ["typography","letters"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson

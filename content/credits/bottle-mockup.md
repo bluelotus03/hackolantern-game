@@ -1,10 +1,10 @@
 ---
 title: "Bottle Mockup"
-type: portfolio
+type: credits
 date: 2018-07-12T16:54:54+06:00
 description : "This is meta description"
 caption: Product Mockup
-image: images/portfolio/item-2.jpg
+image: images/credits/item-2.jpg
 category: ["mockup","design"]
 liveLink: https://www.themefisher.com
 client: Julia Robertson
