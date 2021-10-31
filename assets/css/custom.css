@@ -54,3 +54,9 @@
 .story-text p {
     font-size: 20px;
 }
+
+.out-of-here-btn {
+    position: absolute;
+    top: 5;
+    right: 0;
+}
