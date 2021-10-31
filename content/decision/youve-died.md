@@ -1,6 +1,6 @@
 ---
 draft: false
-decision_image: 'slider-smaller.jpg'
+decision_image: 'died.png'
 decision_image_alt: ''
 decisions:
     - text: "Let’s go again. I can do this."
