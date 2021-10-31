@@ -58,7 +58,7 @@ description = "DISCLAIMER: May be too scary for children. Play only if you dare.
 # button
 btn     = true
 btnText = "PLAY"
-btnURL  = "/decision/80df291569a69d2a92aba44af5875fc0"
+btnURL  = "decision/80df291569a69d2a92aba44af5875fc0"
 
 # flip text
 [[params.banner.flipText]]

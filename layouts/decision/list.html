@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <script>
-	window.location.href = "/";
+	window.location.href = {{ .Site.BaseURL | absURL }};
 </script>
 
 {{ end }}
