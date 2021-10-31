@@ -13,19 +13,18 @@
         </div>
     </div>
     <div style="position: relative;" id="decision_image">
-        <img class="img-fluid" src="{{ .Params.decision_image | absURL }}" alt="{{ .Params.decision_image_alt }}">
+        <img class="img-fluid" src="{{ (printf `images/decision/%s` .Params.decision_image) | absURL }}" alt="{{ .Params.decision_image_alt }}">
         <div class="decision_options">
-            {{ $top_percent := newScratch }}
-            {{ $top_percent.Add "per" 66 }}
-            {{ range .Params.decisions }}
-            
-            <a class="m-4" href="{{ .link }}" >
-                <div class="decision_option badge badge-dark text-wrap" style="top: {{ $top_percent.Get `per` }}%">
-                    {{ .text }}
+            <a class="m-4" href="{{ (printf `outcome/%s` (index .Params.decisions 0).slug) | absURL }}" >
+                <div class="decision_option badge badge-dark text-wrap" style="top: 15%">
+                    {{ (index .Params.decisions 0).text }}
                 </div>
             </a>
-            {{ $top_percent.Add "per" 20 }}
-            {{ end }}
+            <a class="m-4" href="{{ (printf `outcome/%s` (index .Params.decisions 1).slug) | absURL }}" >
+                <div class="decision_option badge badge-dark text-wrap" style="top: 22%">
+                    {{ (index .Params.decisions 1).text }}
+                </div>
+            </a>
         </div>
     </div>
 
