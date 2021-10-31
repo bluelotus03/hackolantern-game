@@ -14,19 +14,19 @@ weight  = 1
 name    = "About"
 url     = "about"
 weight  = 2
-[[menu.main]]
-name    = "Decision"
-# TODO: need to point to first page
-url     = "decision"
-weight  = 3
+# [[menu.main]]
+# name    = "Decision"
+# # TODO: need to point to first page
+# url     = "decision"
+# weight  = 3
 [[menu.main]]
 name    = "Gallery"
 url     = "gallery"
 weight  = 4
-[[menu.main]]
-name    = "Outcome"
-url     = "outcome"
-weight  = 5
+# [[menu.main]]
+# name    = "Outcome"
+# url     = "outcome"
+# weight  = 5
 [[menu.main]]
 name    = "Contact"
 url     = "contact"
