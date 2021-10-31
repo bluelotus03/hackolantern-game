@@ -11,9 +11,13 @@ name    = "Home"
 url     = "/"
 weight  = 1
 [[menu.main]]
-name    = "About"
-url     = "about"
+name    = "How To"
+url     = "how-to"
 weight  = 2
+[[menu.main]]
+name    = "Credits"
+url     = "credits"
+weight  = 3
 # [[menu.main]]
 # name    = "Decision"
 # # TODO: need to point to first page
@@ -27,10 +31,10 @@ weight  = 2
 # name    = "Outcome"
 # url     = "outcome"
 # weight  = 5
-[[menu.main]]
-name    = "Contact"
-url     = "contact"
-weight  = 6
+# [[menu.main]]
+# name    = "Contact"
+# url     = "contact"
+# weight  = 6
 
 # Site Params
 [params]
@@ -64,8 +68,8 @@ title   = "DEVELOPER"
 [[params.banner.flipText]]
 title   = "FATHER"
 
-# Homepage About Section
-[params.about]
+# Homepage Credits Section
+[params.credits]
 enable  = true
 title   = "ABOUT ME"
 content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
@@ -80,10 +84,10 @@ btnText = "Contact with me"
 btnURL  = "/contact"
 
 # Credits Section On Homepage
-[params.credits]
-enable  = true
-title   = "Latest Works"
-subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+# [params.credits]
+# enable  = true
+# title   = "Latest Works"
+# subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
 # social icon
 [[params.socialIcon]]
