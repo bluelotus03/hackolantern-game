@@ -5,8 +5,8 @@
 <body style="background-color: black;">
     <div style="position: relative;">
         {{ if in .Params.yt_vid ".png" }}
-        <a id="img-fluid" href="{{ (printf `decision/%s` .Params.next_slug ) | absURL }}" class="btn btn-light holiday-button" style="top: 25%; right: 0; position: absolute;">Next</a>
-        <img src="{{ (printf `images/outcome/%s` .Params.yt_vid ) | absURL }}" alt=""></img>
+        <a href="{{ (printf `decision/%s` .Params.next_slug ) | absURL }}" class="btn btn-light holiday-button"  style="top: 25%; right: 0; position: absolute;">Next</a>
+        <img class="img-fluid" src="{{ (printf `images/outcome/%s` .Params.yt_vid ) | absURL }}" alt=""></img>
         {{ else }}
         <div class="video-container">
             <a id="video-button" href="{{ (printf `decision/%s` .Params.next_slug ) | absURL }}" class="btn btn-light video-button holiday-button">Next</a>
