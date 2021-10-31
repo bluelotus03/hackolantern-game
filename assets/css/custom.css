@@ -29,8 +29,14 @@
 }
 
 .video-button {
+    position: absolute;
     top: 0;
-    left: 0;
+    right: 10px;
     /* width: 100%;
     height: 50%; */
+}
+
+.holiday-button {
+  background-color: rgb(255, 94, 0);
+  border-color: black;
 }
