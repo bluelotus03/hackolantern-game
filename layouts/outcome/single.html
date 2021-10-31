@@ -3,6 +3,7 @@
 {{- partial "head.html" . -}}
 
 <body style="background-color: black;">
+    <a href="{{ `/` | absURL }}" class="btn btn-danger out-of-here-btn" >Get me out of HERE!</a>
     <div style="position: relative;">
         {{ if in .Params.yt_vid ".png" }}
         <a href="{{ (printf `decision/%s` .Params.next_slug ) | absURL }}" class="btn btn-light holiday-button"  style="top: 25%; right: 0; position: absolute;">Next</a>
