@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+    <div class="container">
+        <div class="row">
+            <section id="description">
+                <div class="col-md-12 text-center">
+                    {{ .Content }}
+                </div>
+            </section>
+        </div>
+    </div>
+    <div style="position: relative;" id="decision_image">
+        <img class="img-fluid" src="{{ .Params.decision_image | absURL }}" alt="{{ .Params.decision_image_alt }}">
+        <div class="decision_options">
+            {{ $top_percent := newScratch }}
+            {{ $top_percent.Add "per" 66 }}
+            {{ range .Params.decisions }}
+            
+            <a class="m-4" href="{{ .link }}" >
+                <div class="decision_option badge badge-dark text-wrap" style="top: {{ $top_percent.Get `per` }}%">
+                    {{ .text }}
+                </div>
+            </a>
+            {{ $top_percent.Add "per" 20 }}
+            {{ end }}
+        </div>
+    </div>
+
+    {{- partial "footer-scripts.html" . -}}
+</body>
+
+</html>

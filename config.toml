@@ -16,6 +16,7 @@ url     = "about"
 weight  = 2
 [[menu.main]]
 name    = "Decision"
+# TODO: need to point to first page
 url     = "decision"
 weight  = 3
 [[menu.main]]
@@ -96,3 +97,12 @@ url = "#"
 [[params.socialIcon]]
 icon = "ion-social-linkedin"
 url = "#"
+
+[params.plugins]
+[params.plugins.bootstrap]
+# found here: https://getbootstrap.com/docs/4.4/getting-started/download/
+css_url = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+css_int = "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+js_url = "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+js_int = "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+
