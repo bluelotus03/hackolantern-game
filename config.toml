@@ -14,10 +14,10 @@ weight  = 1
 name    = "How To"
 url     = "how-to"
 weight  = 2
-[[menu.main]]
-name    = "Credits"
-url     = "credits"
-weight  = 3
+# [[menu.main]]
+# name    = "Credits"
+# url     = "credits"
+# weight  = 3
 # [[menu.main]]
 # name    = "Decision"
 # # TODO: need to point to first page
