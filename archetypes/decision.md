@@ -1,10 +1,10 @@
 ---
 draft: false
-decision_image: 'images/decision/.png'
+decision_image: ''
 decision_image_alt: ''
 decisions:
     - text: ""
-      link: ""
+      slug: ""
     - text: ""
-      link: ""
+      slug: ""
 ---
