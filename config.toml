@@ -1,4 +1,4 @@
-baseURL = "bluelotus03.github.io/hackolantern-game/"
+baseURL = "https://bluelotus03.github.io/hackolantern-game/"
 languageCode = "en-us"
 title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
 theme = "timer-hugo"
