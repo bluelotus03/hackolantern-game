@@ -192,8 +192,8 @@ a:hover {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fff;
-  color: #fff;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: all 0.2s ease-out 0s;
   padding: 15px 0;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -203,7 +203,7 @@ a:hover {
 
 .top-bar.animated-header {
   padding: 20px 0;
-  background: #fff;
+  background: rgb(0, 0, 0);
   box-shadow: none;
 }
 
@@ -215,11 +215,11 @@ a:hover {
 }
 
 .navbar.bg-light {
-  background: #fff !important;
+  background: rgb(0, 0, 0) !important;
 }
 
 .navbar .nav-item .nav-link {
-  color: #444 !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 14px;
   font-weight: 500;
   transition: .3s all;
@@ -237,7 +237,7 @@ a:hover {
 }
 
 .dropdown-menu {
-  background: #222222;
+  background: #000000;
   border: 0;
   border-radius: 0;
   padding: 15px;
@@ -564,8 +564,8 @@ figure .buttons {
 }
 
 figure .buttons a:hover {
-  background: #02bdd5;
-  border-color: #02bdd5;
+  background: #d45703;
+  border-color: #d45703;
 }
 
 figure .buttons a:focus {
@@ -650,7 +650,7 @@ figure figcaption p {
 }
 
 .wrapper_404 .btn-home {
-  background: #414141;
+  background: #000000;
   border: none;
   color: #fff;
   padding: 20px 35px;
