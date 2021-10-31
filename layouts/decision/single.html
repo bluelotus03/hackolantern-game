@@ -15,12 +15,12 @@
     <div style="position: relative;" id="decision_image">
         <img class="img-fluid" src="{{ (printf `images/decision/%s` .Params.decision_image) | absURL }}" alt="{{ .Params.decision_image_alt }}">
         <div class="decision_options">
-            <a class="m-4" href="{{ (printf `decision/%s` (index .Params.decisions 0).slug) | absURL }}" >
+            <a class="m-4" href="{{ (printf `outcome/%s` (index .Params.decisions 0).slug) | absURL }}" >
                 <div class="decision_option badge badge-dark text-wrap" style="top: 15%">
                     {{ (index .Params.decisions 0).text }}
                 </div>
             </a>
-            <a class="m-4" href="{{ (printf `decision/%s` (index .Params.decisions 1).slug) | absURL }}" >
+            <a class="m-4" href="{{ (printf `outcome/%s` (index .Params.decisions 1).slug) | absURL }}" >
                 <div class="decision_option badge badge-dark text-wrap" style="top: 22%">
                     {{ (index .Params.decisions 1).text }}
                 </div>
