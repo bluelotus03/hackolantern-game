@@ -3,8 +3,11 @@
 {{- partial "head.html" . -}}
 
 <body>
-    <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/{{ .Params.yt_vid }}?controls=0&autoplay=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="position: relative;">
+        <div class="video-container">
+            <a href="{{ .Params.next_slug | absURL }}" class="btn btn-light video-button">Next</a>
+            <iframe id="YT-video" src="https://www.youtube.com/embed/{{ .Params.yt_vid }}?controls=0&autoplay=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 
     {{- partial "footer-scripts.html" . -}}
