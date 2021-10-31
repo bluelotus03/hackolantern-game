@@ -6,8 +6,10 @@
     <div class="container">
         <div class="row">
             <section id="description">
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center story-text">
+                   <br><br>
                     {{ .Content }}
+                <br><br>
                 </div>
             </section>
         </div>
@@ -21,7 +23,7 @@
                 </div>
             </a>
             <a class="m-4" href="{{ (printf `outcome/%s` (index .Params.decisions 1).slug) | absURL }}" >
-                <div class="decision_option badge badge-light text-wrap holiday-button" style="top: 25%">
+                <div class="decision_option badge badge-light text-wrap holiday-button" style="top: 30%">
                     {{ (index .Params.decisions 1).text }}
                 </div>
             </a>

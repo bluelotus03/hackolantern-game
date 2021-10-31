@@ -6,7 +6,7 @@
     /* overriding bootstrap, because takes up too much space */
     /* padding: .15em .4em; */
     /* seems like a good size */
-    font-size: 14px;
+    font-size: 16px;
     /*  */
     width: 18%;
 }
@@ -39,6 +39,8 @@
 .holiday-button {
   background-color: rgb(255, 94, 0);
   border-color: black;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .outcome_image {
@@ -47,4 +49,8 @@
     left: 0;
     height: 100%;
     width: 100%;
+}
+
+.story-text p {
+    font-size: 20px;
 }

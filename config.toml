@@ -57,8 +57,8 @@ heading = "The Cursed Forest"
 description = "DISCLAIMER: May be too scary for children. Play only if you dare."
 # button
 btn     = true
-btnText = "Download More"
-btnURL  = "https://themefisher.com/"
+btnText = "PLAY"
+btnURL  = "/decision/80df291569a69d2a92aba44af5875fc0"
 
 # flip text
 [[params.banner.flipText]]
