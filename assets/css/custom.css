@@ -2,13 +2,13 @@
     /* used for overlapping the picture */
     position: absolute;
     /* trying to not have excatly on edge of screen */
-    left: 5px;
+    right: 5px;
     /* overriding bootstrap, because takes up too much space */
-    padding: .15em .4em;
+    /* padding: .15em .4em; */
     /* seems like a good size */
     font-size: 14px;
     /*  */
-    width: 28%;
+    width: 18%;
 }
 
 .video-container { 
